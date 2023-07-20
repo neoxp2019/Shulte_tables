@@ -1,0 +1,69 @@
+#RegForm   /*Стиль основного блока в котором будут располагаться блоки с результатами*/
+{	
+ 	position: absolute; /*Позиционирование*/
+ 	top:150px;   /*--Отступ сверху--*/
+  right:400px;
+ 	width: 470px;    /*--ширина--*/
+ 	height: 220px;    /*--Высота--*/
+ 	padding: 10px 10px 10px 10px; /*--Отступы для текста от краев формы--*/
+  background-color: rgb(230, 230, 230); /*Цвет фона*/
+  border: 1px solid #fff;   /*--Стиль каймы--*/
+  box-shadow: 0 0 0 1px #A4A4A4;   /*--Тень каймы--*/
+ 	-moz-border-radius: 5px; /* закругление для старых Mozilla Firefox */
+ 	-webkit-border-radius: 5px; /* закругление для старых Chrome и Safari */
+ 	-khtml-border-radius:5px; /* закругл. для браузера Konquerer системы Linux */
+ 	border-radius: 5px; /* закругление углов для всех, кто понимает */ 
+  /*---------------------------*/
+  visibility: hidden;
+  /*---------------------------*/
+}
+#VisResult
+{
+  background-color: rgb(250, 250, 250); /*Цвет фона*/
+  position: relative;
+  width: 465px;    /*--ширина--*/
+  height: 180px;    /*--Высота--*/
+  overflow: scroll;
+  overflow-x:hidden;
+
+  border: 1px solid #fff;   /*--Стиль каймы--*/
+  box-shadow: 0 0 0 1px #A4A4A4;   /*--Тень каймы--*/
+  -moz-border-radius: 5px; /* закругление для старых Mozilla Firefox */
+  -webkit-border-radius: 5px; /* закругление для старых Chrome и Safari */
+  -khtml-border-radius:5px; /* закругл. для браузера Konquerer системы Linux */
+  border-radius: 5px; /* закругление углов для всех, кто понимает */ 
+}
+
+#TitleTextW   /*Стиль основного блока в котором будут располагаться блоки с результатами*/
+{ 
+  position: relative;
+  text-align:center;
+  bottom:4px;  
+}
+#Close
+{
+  position: relative;
+  /*left:300px;*/
+}
+input
+{
+	/*line-height: 2px;  /* междустрочный интервал*/
+}
+form>div
+{
+	font: 14pt fantasy; /* настройки шрифта*/
+}
+div>p
+{
+	font: 12pt arial; /* настройки шрифта*/
+	line-height: 2px;  /* междустрочный интервал*/
+}
+#Pustota
+{
+	font: 2pt arial;  /* настройки шрифта*/
+}
+.temp
+{
+  font: 16px Century Gothic;  /* настройки шрифта*/
+  /*font: 16px arial;  /* настройки шрифта*/
+}
