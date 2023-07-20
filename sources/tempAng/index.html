@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html ng-app>
+	<head>
+	<meta charset="UTF-8">
+    <link href="style.css" rel="stylesheet"/>
+    <script type="text/javascript" src="script.js" defer></script>
+    <script type="text/javascript" src="jquery-1.4.4.min.js" defer></script>    
+	</head>
+    <body>
+        <input id="StartButton" type="button" value="Показать результаты" onclick="ImportData()">
+        <div id="CenterFieldR2">
+            <div id="DBResNum">Количество записей с результатами Value</div>
+            <input id="SearchField"  type="text" value="Search...." onclick="Move()">
+            <input id="SearchResult"  type="text" onclick="Move()">
+            <div id="EFName">Имя игрока</div>
+            <input id="EFNameValue"  type="text" onclick="Move()">
+            <div id="EFGameType">Режим - value</div>
+            <input id="EFGameTypeValue"  type="text" onclick="Move()">
+            <div id="EFGameTime">Время прохождения</div>
+            <input id="EFGameTimeValue"  type="text" onclick="Move()">
+            <div id="EFFoto">Фото</div>
+            <input id="EFFotoValue"  type="text" onclick="Move()">
+            <input id="SaveButton" type="button" value="Сохранить" onclick="Show()">
+            <input id="CloseButton" type="button" value="Закрыть" onclick="Show()">
+        </div>
+	</body>	
+</html>
