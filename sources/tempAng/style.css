@@ -1,0 +1,212 @@
+#RegForm   /*Стиль основного блока в котором будут располагаться блоки с результатами*/
+{	
+ 	position: absolute; /*Позиционирование*/
+ 	top:150px;   /*--Отступ сверху--*/
+  right:400px;
+ 	width: 470px;    /*--ширина--*/
+ 	height: 220px;    /*--Высота--*/
+ 	padding: 10px 10px 10px 10px; /*--Отступы для текста от краев формы--*/
+  background-color: rgb(230, 230, 230); /*Цвет фона*/
+  border: 1px solid #fff;   /*--Стиль каймы--*/
+  box-shadow: 0 0 0 1px #A4A4A4;   /*--Тень каймы--*/
+ 	-moz-border-radius: 5px; /* закругление для старых Mozilla Firefox */
+ 	-webkit-border-radius: 5px; /* закругление для старых Chrome и Safari */
+ 	-khtml-border-radius:5px; /* закругл. для браузера Konquerer системы Linux */
+ 	border-radius: 5px; /* закругление углов для всех, кто понимает */ 
+  /*---------------------------*/
+  /*visibility: hidden;*/
+  /*---------------------------*/
+}
+#VisResult
+{
+  background-color: rgb(250, 250, 250); /*Цвет фона*/
+  position: relative;
+  width: 465px;    /*--ширина--*/
+  height: 180px;    /*--Высота--*/
+  overflow: scroll;
+  overflow-x:hidden;
+
+  border: 1px solid #fff;   /*--Стиль каймы--*/
+  box-shadow: 0 0 0 1px #A4A4A4;   /*--Тень каймы--*/
+  -moz-border-radius: 5px; /* закругление для старых Mozilla Firefox */
+  -webkit-border-radius: 5px; /* закругление для старых Chrome и Safari */
+  -khtml-border-radius:5px; /* закругл. для браузера Konquerer системы Linux */
+  border-radius: 5px; /* закругление углов для всех, кто понимает */ 
+}
+
+#TitleTextW   /*Стиль основного блока в котором будут располагаться блоки с результатами*/
+{ 
+  position: relative;
+  text-align:center;
+  bottom:4px;  
+}
+#Close
+{
+  position: relative;
+  /*left:300px;*/
+}
+input
+{
+	/*line-height: 2px;  /* междустрочный интервал*/
+}
+form>div
+{
+	font: 14pt fantasy; /* настройки шрифта*/
+}
+div>p
+{
+	font: 12pt arial; /* настройки шрифта*/
+	line-height: 2px;  /* междустрочный интервал*/
+}
+#Pustota
+{
+	font: 2pt arial;  /* настройки шрифта*/
+}
+
+.temp
+{
+  font: 16px Century Gothic;  /* настройки шрифта*/
+  /*font: 16px arial;  /* настройки шрифта*/
+}
+
+#CenterFieldR2
+{
+    position: absolute; /*Позиционирование*/
+    top:100px;   /*--Отступ сверху--*/
+    left:80px;
+    width: 595px;    /*--ширина--*/
+    height: 475px;    /*--Высота--*/
+    padding: 10px 10px 10px 10px; /*--Отступы для текста от краев формы--*/
+    background-color: rgb(240, 240, 240); /*Цвет фона*/
+    border: 1px solid #fff;   /*--Стиль каймы--*/
+    box-shadow: 0 0 0 1px #A4A4A4;   /*--Тень каймы--*/
+    -moz-border-radius: 5px; /* закругление для старых Mozilla Firefox */
+    -webkit-border-radius: 5px; /* закругление для старых Chrome и Safari */
+    -khtml-border-radius:5px; /* закругл. для браузера Konquerer системы Linux */
+    border-radius: 5px; /* закругление углов для всех, кто понимает */ 
+    /*visibility: hidden;*/
+}
+/*---------------------------------------------*/
+#DBResNum
+{
+    position: absolute; 
+    top:7px;   
+    left:140px;
+    font: 18px Comic Sans MS;  /* настройки шрифта*/
+    font-style: italic;    
+}
+
+#SearchField
+{
+    position: absolute; 
+    top:458px;   
+    left:7px;
+    width: 310px;    
+    height: 25px;  
+}
+
+#SearchResult
+{
+    position: absolute; 
+    top:45px;   
+    left:7px;
+    width: 310px;    
+    height: 400px; 
+}
+
+#EFName
+{
+    position: absolute; 
+    top:75px;   
+    left:329px;
+    font: 16px Comic Sans MS;  /* настройки шрифта*/
+    /*font-style: italic;*/
+}
+
+#EFNameValue
+{
+    position: absolute; 
+    top:45px;   
+    left:329px;
+    width: 275px;    
+    height: 25px;    
+    /*pointer-events: none;*/
+}
+
+#EFGameType
+{
+    position: absolute; 
+    top:133px;   
+    left:329px;
+    font: 16px Comic Sans MS;  /* настройки шрифта*/
+    /*font-style: italic;*/
+}
+
+#EFGameTypeValue
+{
+    position: absolute; 
+    top:105px;   
+    left:329px;
+    width: 275px;    
+    height: 25px;    
+    /*pointer-events: none;*/
+}
+
+#EFGameTime
+{
+    position: absolute; 
+    top:195px;   
+    left:329px;
+    font: 16px Comic Sans MS;  /* настройки шрифта*/
+    /*font-style: italic;*/
+}
+
+#EFGameTimeValue
+{
+    position: absolute; 
+    top:165px;   
+    left:329px;
+    width: 275px;    
+    height: 25px;    
+    /*pointer-events: none;*/
+}
+
+#EFFoto
+{
+    position: absolute; 
+    top:434px;   
+    left:329px;
+    font: 16px Comic Sans MS;  /* настройки шрифта*/
+    /*font-style: italic;*/
+}
+
+#EFFotoValue
+{
+    position: absolute; 
+    top:222px;   
+    left:329px;
+    width: 205px;    
+    height: 205px;    
+    /*pointer-events: none;*/
+}
+
+#SaveButton
+{
+    position: absolute; 
+    top:458px;   
+    left:329px;
+    width: 135px;    
+    height: 32px; 
+    /*font: 18px Comic Sans MS;  */
+    /*font-style: italic;*/
+}
+
+#CloseButton
+{
+    position: absolute; 
+    top:458px;   
+    left:467px;
+    width: 140px;    
+    height: 32px;    
+    /*pointer-events: none;*/
+}
